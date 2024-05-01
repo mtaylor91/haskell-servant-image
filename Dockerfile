@@ -1,6 +1,6 @@
 FROM images.home.mtaylor.io/base:latest
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  build-essential curl libffi-dev libffi8 libgmp-dev libgmp10  \
+  build-essential curl git libffi-dev libffi8 libgmp-dev libgmp10  \
   libncurses-dev libncurses5 libtinfo5 \
   && rm -rf /var/lib/apt/lists/*
 RUN adduser --home /build build
