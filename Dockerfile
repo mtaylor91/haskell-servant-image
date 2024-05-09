@@ -11,4 +11,4 @@ RUN stack install --system-ghc --resolver lts-21.25 \
   aeson base64 bytestring case-insensitive ed25519 email-validate \
   hasql hasql-pool hasql-th hasql-transaction http-client http-client-tls \
   http-types lens mtl optparse-applicative servant-client servant-server \
-  stm text uuid vector wai warp
+  stm text uuid vector wai wai-websockets warp websockets
